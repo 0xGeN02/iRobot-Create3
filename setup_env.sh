@@ -22,5 +22,6 @@ pip install numpy mkdocs mkdocs-material
 pip install -r create3_docs/requirements.txt
 pip3 install irobot_edu_sdk
 cd irobot-edu-python-sdk && pip install .
+cd irobot_edu_sdk && pip install .
 
 echo "El entorno virtual '$ENV_DIR' está listo y las dependencias están instaladas."
